@@ -1,0 +1,51 @@
+Dependencies for Project 'lora_tx', Target 'stm32l051c8t6tr': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x6744E5CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./l-I./RTE/_stm32l051c8t6tr-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include-IC:/Keil_v5/l/Arm/Packs/Keil/STM32L0xx_DFP/2.3.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="541" -DSTM32L051xx -D_RTE_-o ./objects/main.o -MMD)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x6720FD34)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x67445C3F)
+I (lora.h)(0x67436D51)
+I (main.h)(0x67435766)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x67445C3F)
+I (adc.h)(0x67445FF8)
+I (stdby.h)(0x6744C1E7)
+F (.\lora.c)(0x67446022)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./l-I./RTE/_stm32l051c8t6tr-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include-IC:/Keil_v5/l/Arm/Packs/Keil/STM32L0xx_DFP/2.3.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="541" -DSTM32L051xx -D_RTE_-o ./objects/lora.o -MMD)
+I (lora.h)(0x67436D51)
+I (main.h)(0x67435766)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x6720FD34)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x67445C3F)
+F (.\adc.c)(0x6744E5D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./l-I./RTE/_stm32l051c8t6tr-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include-IC:/Keil_v5/l/Arm/Packs/Keil/STM32L0xx_DFP/2.3.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="541" -DSTM32L051xx -D_RTE_-o ./objects/adc.o -MMD)
+I (adc.h)(0x67445FF8)
+I (main.h)(0x67435766)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x6720FD34)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x67445C3F)
+F (.\stdby.c)(0x6744CC56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./l-I./RTE/_stm32l051c8t6tr-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include-IC:/Keil_v5/l/Arm/Packs/Keil/STM32L0xx_DFP/2.3.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="541" -DSTM32L051xx -D_RTE_-o ./objects/stdby.o -MMD)
+I (stdby.h)(0x6744C1E7)
+I (main.h)(0x67435766)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x6720FD34)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x67445C3F)
+F (.\main.h)(0x67435766)()
+F (.\lora.h)(0x67436D51)()
+F (.\adc.h)(0x67445FF8)()
+F (.\stdby.h)(0x6744C1E7)()
+F (C:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Source/os_systick.c)(0x6720FD52)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./l-I./RTE/_stm32l051c8t6tr-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include-IC:/Keil_v5/l/Arm/Packs/Keil/STM32L0xx_DFP/2.3.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="541" -DSTM32L051xx -D_RTE_-o ./objects/os_systick.o -MMD)
+I (C:\Keil_v5\l\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\RTOS2\Include\os_tick.h)(0x6720FD52)
+I (RTE\_stm32l051c8t6tr\RTE_Components.h)(0x67445F5C)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x6720FD34)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x67445C3F)
+F (C:/Keil_v5/l/Arm/Packs/ARM/CMSIS-Compiler/2.1.0/source/armcc/retarget_io.c)(0x6720FF48)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./l-I./RTE/_stm32l051c8t6tr-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include-IC:/Keil_v5/l/Arm/Packs/Keil/STM32L0xx_DFP/2.3.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="541" -DSTM32L051xx -D_RTE_-o ./objects/retarget_io.o -MMD)
+I (RTE\_stm32l051c8t6tr\RTE_Components.h)(0x67445F5C)
+F (RTE/Device/STM32L051C8Tx/startup_stm32l051xx.s)(0x67433CBF)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1" -I ./I-I./RTE/_stm32l051c8t6tr-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include-IC:/Keil_v5/l/Arm/Packs/Keil/STM32L0xx_DFP/2.3.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"STM32L051xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32l051xx.o)
+F (RTE/Device/STM32L051C8Tx/system_stm32l0xx.c)(0x67433CBF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./l-I./RTE/_stm32l051c8t6tr-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/l/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include-IC:/Keil_v5/l/Arm/Packs/Keil/STM32L0xx_DFP/2.3.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include-D__UVISION_VERSION="541" -DSTM32L051xx -D_RTE_-o ./objects/system_stm32l0xx.o -MMD)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l051xx.h)(0x67445C3F)
+I (C:\Keil_v5\l\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x6720FD34)
+I (C:\Keil_v5\l\Arm\Packs\Keil\STM32L0xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h)(0x67445C3F)
