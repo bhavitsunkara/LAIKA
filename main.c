@@ -36,7 +36,7 @@ int main(void) {
 		// Toggle the LED (flip output state)
     LED_PORT->ODR &= ~(1 << LED_PIN);  // Toggle PC13
 		
-		uint8_t packet  [1];
+		uint8_t packet  [11];
 		packet[0] = DEVICE_ID;
 		uint16_t adc_val;
 
