@@ -6,7 +6,7 @@
 #define LED_PIN        13  // Pin PC13 (usually onboard LED)
 #define LED_PORT       GPIOC
 #define LED_PORT_CLK   RCC_IOPENR_GPIOCEN  // Clock for GPIOC in STM32L051
-
+#define DEVICE_ID 		 0x01
 volatile uint16_t i;
 
 void delay(volatile uint32_t delay_count) {
@@ -36,25 +36,18 @@ int main(void) {
 		// Toggle the LED (flip output state)
     LED_PORT->ODR &= ~(1 << LED_PIN);  // Toggle PC13
 		
-		float j  =  ADC_Read();
-		j +=  ADC_Read();
-		j +=	ADC_Read();
-		
-		j = j/3;
-		
-		i = (uint16_t)(j/4096.0*3.3*100);
-		
-		char buffer [20];
-		uint8_t int_buffer [20];
-			
-		sprintf(buffer, "Temp Data: %d C", i);
-		
-		for(uint8_t j = 0; j < sizeof(buffer)-1; j++){
-			int_buffer[j] = buffer[j];
+		uint8_t packet  [1];
+		packet[0] = DEVICE_ID;
+		uint16_t adc_val;
+
+	for(int i = 1; i <=10; i = i+2){
+				adc_val = ADC_Read();
+				packet[i] = adc_val>>8;
+				packet[i+1] = (uint8_t)(adc_val & 0xFF);
 		}
-				
+		
 		beginPacket(0);
-		write(int_buffer, sizeof(buffer)-1);
+		write(packet, sizeof(packet));
 		endPacket();
 				
 		++i;
@@ -64,7 +57,7 @@ int main(void) {
 		RTC_Config();
 		//}
 		
-		RTC_WUT_Config();
+		RTC_WUT_Config(10);
 		Enable_IRQ();
 		STANDBY();
 		

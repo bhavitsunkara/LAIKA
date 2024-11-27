@@ -22,14 +22,14 @@ void RTC_Config(void) {
     RTC->WPR = 0xFF;                   // Enable write protection
 }
 
-void RTC_WUT_Config(void) {
+void RTC_WUT_Config(uint16_t seconds) {
     RTC->WPR = 0xCA;
     RTC->WPR = 0x53;                   // Disable write protection
 
     RTC->CR &= ~RTC_CR_WUTE;           // Disable Wakeup Timer
     while (!(RTC->ISR & RTC_ISR_WUTWF)); // Wait until WUTWF is set
 
-    RTC->WUTR = 4;                     // Set Wakeup Timer for 5 seconds
+    RTC->WUTR = seconds;               // Set Wakeup Timer for the desired seconds
     RTC->CR |= RTC_CR_WUTIE;           // Enable Wakeup Timer interrupt
 
     RTC->CR &= ~RTC_CR_WUCKSEL;        // Select RTC 1 Hz clock
